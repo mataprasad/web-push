@@ -73,6 +73,7 @@
     <Content Include="images\icon.png" />
     <Content Include="index.aspx" />
     <Content Include="lib\Dapper.dll" />
+    <Content Include="lib\lib.txt" />
     <Content Include="lib\Newtonsoft.Json.dll" />
     <Content Include="scripts\main.js" />
     <Content Include="SendMessage.aspx" />
