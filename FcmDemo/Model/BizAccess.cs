@@ -63,7 +63,7 @@ namespace FcmDemo.Model
             {
                 HttpContext context = HttpContext.Current;
                 string baseUrl = context.Request.Url.Scheme + "://" + context.Request.Url.Authority + context.Request.ApplicationPath.TrimEnd('/');
-                return baseUrl;
+                return "http://web-push.apphb.com";
             }
         }
 
