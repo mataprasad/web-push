@@ -17,11 +17,13 @@ namespace FcmDemo
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if(!IsPostBack)
+            {
             txtTitle.Text = "PushMessage from FCM for WebSite";
             txtBody.Text = "Hey...";
             txtIcon.Text = "https://web1045.herokuapp.com/images/icon.png";
             txtClickAction.Text = "";
-
+            }
         }
 
         protected void btnUpdateConfig_Click(object sender, EventArgs e)
