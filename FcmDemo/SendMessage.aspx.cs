@@ -19,7 +19,7 @@ namespace FcmDemo
         {
             txtTitle.Text = "PushMessage from FCM for WebSite";
             txtBody.Text = "Hey...";
-            txtIcon.Text = BizAccess.BaseSiteUrl + "/images/icon.png";
+            txtIcon.Text = "https://web1045.herokuapp.com/images/icon.png";
             txtClickAction.Text = "";
 
         }
