@@ -68,7 +68,7 @@
     <Content Include="ajax.aspx" />
     <Content Include="db_script.sql" />
     <Content Include="FcmConfig.aspx" />
-    <None Include="firebase-messaging-sw.js.temp" />
+    <Content Include="firebase-messaging-sw.js.temp" />
     <Content Include="images\badge.png" />
     <Content Include="images\icon.png" />
     <Content Include="index.aspx" />
