@@ -74,6 +74,7 @@
     <Content Include="FcmConfig.aspx" />
     <Content Include="firebase-messaging-sw.js.temp" />
     <Content Include="images\badge.png" />
+    <Content Include="dup\index.html" />
     <Content Include="images\icon.png" />
     <Content Include="index.aspx" />
     <Content Include="lib\Dapper.dll" />
